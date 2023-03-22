@@ -1,3 +1,5 @@
+import AboutSection from '@components/page-sections/AboutSection'
+import GallerySection from '@components/page-sections/GallerySection'
 import HeroSection from '@components/page-sections/HeroSection'
 import MenuSection from '@components/page-sections/MenuSection'
 import ServicesSection from '@components/page-sections/ServicesSection'
@@ -12,6 +14,8 @@ const Home = (props: Props):ReactElement => {
       <HeroSection />
       <ServicesSection />
       <MenuSection />
+      <GallerySection />
+      <AboutSection/>
     </GeneralLayout>
   )
 }
