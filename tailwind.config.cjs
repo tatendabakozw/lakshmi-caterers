@@ -27,6 +27,9 @@ module.exports = {
           superdark: "#232614",
           light: '#8a8f6f',
           superlight: '#acaf98'
+        },
+        services:{
+          green: '#a9b364'
         }
       },
     },
