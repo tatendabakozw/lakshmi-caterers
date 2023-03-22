@@ -1,5 +1,6 @@
+import Footer from "@components/navigation/Footer";
 import Navbar from "@components/navigation/Navbar";
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 
 type Props = {
   children: ReactNode;
@@ -12,7 +13,9 @@ function GeneralLayout({ children }: Props) {
         <Navbar />
       </div>
       {children}
-      <div className="footer">footer</div>
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
 }
