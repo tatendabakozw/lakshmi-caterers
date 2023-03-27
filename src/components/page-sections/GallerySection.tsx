@@ -42,7 +42,7 @@ const GallerySection = (props: Props) => {
       
       {/* Add video here */}
       <div className="flex bg-slate-100 aspect-video rounded-xl overflow-hidden">
-      <video src={video} width="full" height="full" autoPlay={false} controls={true} />
+      <video src={video} width="full" height="full" autoPlay={false} className="aspect-video" controls={true} />
       </div>
       {itemsToShow <= 10 && (
         <span

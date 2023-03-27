@@ -1,4 +1,5 @@
 import { data } from "@utils/data";
+import food_banner from "@assets/food_banner.png";
 
 type Props = {};
 
@@ -7,22 +8,26 @@ const HeroSection = (props: Props) => {
     <div
       className={`flex w-full h-full min-h-screen bg-no-repeat p-2 relative pt-20 overflow-hidden`}
     >
-      <div className="max-w-7xl w-full mx-auto">
-        <div className="md:w-2/3 w-full flex flex-row space-x-8 items-center col-span-1 z-10 pt-20">
-          <div
-            className={`md:flex hidden flex-col bg-slate-200 p-4 rounded-lg h-full space-y-12`}
-          >
-            {data.home_icons?.map((item, index) => (
-              <span
-                key={index}
-                className={`${
-                  item.name === "home" ? "text-green-light " : "text-slate-700 "
-                } flex flex-col capitalize items-center`}
-              >
-                <item.icon height={32} width={32} />
-                {item.name === "home" ? item.name : ""}
-              </span>
-            ))}
+      <div className="max-w-7xl grid md:grid-cols-2 grid-cols-1 w-full mx-auto">
+        <div className="col-span-1 w-full flex flex-row space-x-8 items-center z-10">
+          <div className="flex">
+            <div
+              className={`md:flex hidden flex-col bg-slate-200 p-4 rounded-lg h-full space-y-12`}
+            >
+              {data.home_icons?.map((item, index) => (
+                <span
+                  key={index}
+                  className={`${
+                    item.name === "home"
+                      ? "text-green-light "
+                      : "text-slate-700 "
+                  } flex flex-col capitalize items-center`}
+                >
+                  <item.icon height={32} width={32} />
+                  {item.name === "home" ? item.name : ""}
+                </span>
+              ))}
+            </div>
           </div>
           <div className=" md:pt-0 w-full inline-block  z-10 flex-col ">
             <p className="xl:text-6xl tracking-tight text-green-original text-4xl font-extrabold ">
@@ -42,12 +47,14 @@ const HeroSection = (props: Props) => {
               offer honest advice, excellent taste at best prices. It has been
               our policy to treat every client with utmost integrity and the
               highest degree of professionalism.
-              
             </p>
           </div>
           {/* </CarouselItem>
               ))}
             </Carousel> */}
+        </div>
+        <div className="flex col-span-1">
+          <img src={food_banner} alt="" className="object-contain" />
         </div>
       </div>
     </div>
