@@ -41,7 +41,7 @@ const ServicesSection = (props: Props) => {
           et odio nisi atque ratione!
         </p>
 
-        <div className="flex flex-row items-center z-10 pt-16 justify-between w-full gap-8">
+        <div className="flex md:flex-row flex-col items-center z-10 pt-16 justify-between w-full gap-8">
           {services_tabs.map((item, index) => (
             <div
               key={index}
@@ -65,7 +65,7 @@ const ServicesSection = (props: Props) => {
       </div>
 
       <div className="flex flex-row pt-8">
-        <div className="flex flex-row items-center gap-8 w-full justify-between ">
+        <div className="flex md:flex-row flex-col items-center gap-8 w-full justify-between ">
           {[1, 2, 3].map((item, index) => (
             <span
               key={index}

@@ -25,7 +25,7 @@ const ContactSection = (props: Props) => {
 
   return (
     <div className="max-w-7xl w-full mx-auto min-h-screen grid items-center content-center justify-center">
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-8 w-full">
+      <div className="grid md:grid-cols-2 grid-cols-1 mx-2 gap-8 w-full">
         <div className="col-span-1">
           <p className="text-4xl pb-8 text-slate-900 font-semibold">
             Get in <span className=" text-services-green">Touch</span>

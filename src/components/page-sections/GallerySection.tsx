@@ -21,9 +21,9 @@ const GallerySection = (props: Props) => {
       <SectionsHeading firstLetter="G" otherLetters="allery" />
       <p className="pt-8 pb-4 text-lg font-semibold">Images</p>
 
-      <div className="grid grid-cols-5 gap-8">
+      <div className="grid md:grid-cols-5 grid-cols-2 md:gap-8 gap-4 mx-2">
         {arr.slice(0, itemsToShow).map((item, index) => (
-          <div className="flex cursor-pointer bg-slate-500 h-60 rounded-lg overflow-hidden">
+          <div key={index} className="flex cursor-pointer bg-slate-500 h-60 rounded-lg overflow-hidden">
             <img src={food} alt="" className="h-full w-full object-cover" />
           </div>
         ))}

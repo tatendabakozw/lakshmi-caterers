@@ -17,7 +17,7 @@ const MenuSection = (props: Props) => {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-12">
+      <div className="grid md:grid-cols-3 grid-cols-1 mx-2 gap-12">
         {veg_menu.map((item, index) => (
          <div key={index}  className="flex flex-col">
            <div className="menu-container bg-slate-100 rounded-xl p-4">
