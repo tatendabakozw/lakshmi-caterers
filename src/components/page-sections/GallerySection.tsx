@@ -1,6 +1,7 @@
 import SectionsHeading from "@components/sections-heading/SectionsHeading";
 import food from "@assets/wedding_caterers.jpg";
 import { useState } from "react";
+import video from '@assets/video/video.mp4'
 
 type Props = {};
 
@@ -38,8 +39,11 @@ const GallerySection = (props: Props) => {
       )}
 
       <p className="pt-8 pb-4 text-lg font-semibold">Videos</p>
+      
       {/* Add video here */}
-      <div className="flex bg-slate-100 aspect-video rounded-xl overflow-hidden"></div>
+      <div className="flex bg-slate-100 aspect-video rounded-xl overflow-hidden">
+      <video src={video} width="full" height="full" autoPlay={false} controls={true} />
+      </div>
       {itemsToShow <= 10 && (
         <span
           onClick={showmore}
