@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import map from '@assets/map.jpg'
+
 
 type Props = {};
 
@@ -63,8 +65,8 @@ const ContactSection = (props: Props) => {
             </button>
           </div>
         </div>
-        <div className="col-span-1 bg-slate-100 rounded-xl">
-            map
+        <div className="col-span-1 bg-slate-100 rounded-xl overflow-hidden">
+            <img src={map} alt="" className="h-full w-full object-cover" />
         </div>
       </div>
     </div>

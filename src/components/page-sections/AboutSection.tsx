@@ -1,5 +1,4 @@
 import SectionsHeading from "@components/sections-heading/SectionsHeading";
-import React from "react";
 
 type Props = {};
 
@@ -13,26 +12,27 @@ const AboutSection = (props: Props) => {
         <div className="md:w-2/3 w-full flex flex-row items-center">
           <div className=" md:pt-0 w-full inline-block  z-10 flex-col  ">
             <p className="text-slate-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-              nostrum iure accusamus minima doloremque incidunt in nesciunt
-              tenetur quidem. Aliquam temporibus quam obcaecati nisi, cupiditate
-              corporis neque dolore veritatis tenetur. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Consectetur, commodi dolore
-              mollitia culpa, eveniet deserunt numquam magnam veritatis itaque
-              tempore nulla et, molestiae repellat error eius minus.
-              Perspiciatis, voluptatem sint. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Praesentium obcaecati assumenda
-              commodi quis eveniet architecto suscipit quidem consectetur
-              distinctio dolorum amet, at aspernatur odio saepe ipsam laborum
-              veniam quibusdam pariatur. Reiciendis maxime quasi corporis fuga
-              recusandae suscipit vel est nesciunt, quia consequatur
-              exercitationem quaerat impedit necessitatibus tempore fugiat
-              pariatur accusamus provident eos. Modi non maiores libero optio
-              molestiae magnam laboriosam! Fugit quasi modi repellat porro
-              praesentium eaque placeat aliquid incidunt quo minus harum
-              perspiciatis architecto eveniet voluptatum dolorem deleniti
-              voluptatem amet cumque explicabo libero, velit omnis reiciendis.
-              Libero, hic delectus?
+            Shree Laxmi Caterers, we are there in the Catering service
+              Industry since 2007. As we grow, we never forget where we came
+              from and what we are trying to achieve. Our loyal customers are
+              big part of our success that helped us at every step of our
+              journey by providing us continuous feedback. We will do whatever
+              our customer demands to improve our services. We have remained
+              true to our roots of promising to serve best quality food with the
+              good taste. We have a Passion to succeed and earn respect in the
+              industry. We do not believe in making false claims instead we
+              offer honest advice, excellent taste at best prices. It has been
+              our policy to treat every client with utmost integrity and the
+              highest degree of professionalism.
+              <br />
+              <br />
+              We are the best caterers service to supply quality, quantity food
+              to all our customers. We will fulfill the desires of the customers
+              in giving good quality, tasty food at the reasonable rates. We
+              always give happiness and satisfaction to them. We pride ourselves
+              on our excellent product range and efficient delivery of quality,
+              hygienic food to our customers. We assure that the food make you
+              mouth watery and get addicted to our food.
             </p>
           </div>
         </div>

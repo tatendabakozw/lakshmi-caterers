@@ -30,14 +30,19 @@ const HeroSection = (props: Props) => {
             </p>
             <p className="text-3xl pt-8 pb-16">Your Event, Our Solution</p>
             <p className="text-slate-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-              nostrum iure accusamus minima doloremque incidunt in nesciunt
-              tenetur quidem. Aliquam temporibus quam obcaecati nisi, cupiditate
-              corporis neque dolore veritatis tenetur. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Consectetur, commodi dolore
-              mollitia culpa, eveniet deserunt numquam magnam veritatis itaque
-              tempore nulla et, molestiae repellat error eius minus.
-              Perspiciatis, voluptatem sint.
+              Shree Laxmi Caterers, we are there in the Catering service
+              Industry since 2007. As we grow, we never forget where we came
+              from and what we are trying to achieve. Our loyal customers are
+              big part of our success that helped us at every step of our
+              journey by providing us continuous feedback. We will do whatever
+              our customer demands to improve our services. We have remained
+              true to our roots of promising to serve best quality food with the
+              good taste. We have a Passion to succeed and earn respect in the
+              industry. We do not believe in making false claims instead we
+              offer honest advice, excellent taste at best prices. It has been
+              our policy to treat every client with utmost integrity and the
+              highest degree of professionalism.
+              
             </p>
           </div>
           {/* </CarouselItem>
