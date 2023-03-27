@@ -12,27 +12,47 @@ const AboutSection = (props: Props) => {
         <div className="md:w-2/3 w-full flex flex-row items-center">
           <div className=" md:pt-0 w-full inline-block  z-10 flex-col  ">
             <p className="text-slate-500">
-            Shree Laxmi Caterers, we are there in the Catering service
-              Industry since 2007. As we grow, we never forget where we came
-              from and what we are trying to achieve. Our loyal customers are
-              big part of our success that helped us at every step of our
-              journey by providing us continuous feedback. We will do whatever
-              our customer demands to improve our services. We have remained
-              true to our roots of promising to serve best quality food with the
-              good taste. We have a Passion to succeed and earn respect in the
-              industry. We do not believe in making false claims instead we
-              offer honest advice, excellent taste at best prices. It has been
-              our policy to treat every client with utmost integrity and the
-              highest degree of professionalism.
+              Welcome to our catering company, where we believe "The way to the
+              Heart is through the stomach.". We are a team of induviduals
+              passionate about cooking and our love for great food into a
+              full-blown catering service. We aim to create a culinary
+              experience that joyfully leaves your taste buds dancing.
               <br />
               <br />
-              We are the best caterers service to supply quality, quantity food
-              to all our customers. We will fulfill the desires of the customers
-              in giving good quality, tasty food at the reasonable rates. We
-              always give happiness and satisfaction to them. We pride ourselves
-              on our excellent product range and efficient delivery of quality,
-              hygienic food to our customers. We assure that the food make you
-              mouth watery and get addicted to our food.
+              We understand that food is not just about nourishing the body but
+              also about satisfying the soul. We use only the finest ingredients
+              and recipes to create a mouth-watering dish that impresses and
+              satisfies your guests.
+              <br />
+              <br />
+              We take customer service seriously. We work jointly with our
+              clients to understand their vision and preferences and tailor our
+              menus to match. So whether you like spicy food or mild, veg or
+              non-veg or maybe vegan, we have got everything your tastebuds
+              demand. Our team is dedicated to providing extraordinary service
+              that exceeds your expectations. Whether planning a corporate event
+              or a wedding, we ensure that every detail is accounted for, so you
+              can sit back and relax. We work endlessly to ensure that
+              everything runs smoothly, so you can focus on enjoying your event.
+              <br />
+              <br />
+              Our clients' positive testimonials and love bring us joy and
+              motivate us to continue providing the best possible service for
+              every event we cater. We are commit to making every event we cater
+              a success.
+              <br />
+              <br />
+              For us, the most rewarding part of our job is the satisfaction of
+              our clients. We feel grateful to be a part of their special
+              moments. Our team has years of experience creating and executing
+              menus for events of all sizes and types. We offer competitive
+              pricing for our catering services.
+              <br />
+              <br />
+              With our experience, passion for service, commitment to quality
+              ingredients, and competitive pricing, we are confident that we can
+              exceed your expectations and help make your event a
+              memorable success.
             </p>
           </div>
         </div>
