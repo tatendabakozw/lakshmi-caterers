@@ -12,7 +12,7 @@ import wedding_caterers from "@assets/wedding_caterers.jpg";
 
 export const data = {
   site_info: {
-    name: "Shree Lakshi Catering",
+    name: "Shree Lakshmi Catering",
     slogan: "Tasty & Quality food at reasonable rates",
     logo: logo,
     icon: icon,
@@ -20,7 +20,7 @@ export const data = {
     phone_2: "+91 81436 11625",
     address:
       "Plot No 70 & 83, Survey No: 649, Chennapuram Village, Jawahar Nagar, Municipal Corporation, Kapra Mandal, Medchal, Malkajigiri District, Hyd - 500087, TS.",
-    email: "email@email.com",
+    email: "caterersshreelakshmi@gmail.com",
   },
   home_icons: [
     { icon: Bars3Icon, name: "bars" },
