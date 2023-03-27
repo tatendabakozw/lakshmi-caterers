@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import map from '@assets/map.jpg'
-
+import map from "@assets/map.jpg";
 
 type Props = {};
 
@@ -31,9 +30,9 @@ const ContactSection = (props: Props) => {
             Get in <span className=" text-services-green">Touch</span>
           </p>
           <p className="pb-8 text-slate-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur, nesciunt veniam laboriosam a sed, porro aspernatur
-            excepturi aliquid, praesentium fugit iste! Pariatur, voluptate.
+            Indulge into the delicious affair! 
+            <br />
+            Get in touch with us now.
           </p>
           <div className="flex flex-col space-y-4">
             <input
@@ -66,7 +65,7 @@ const ContactSection = (props: Props) => {
           </div>
         </div>
         <div className="col-span-1 bg-slate-100 rounded-xl overflow-hidden">
-            <img src={map} alt="" className="h-full w-full object-cover" />
+          <img src={map} alt="" className="h-full w-full object-cover" />
         </div>
       </div>
     </div>
