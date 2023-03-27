@@ -19,8 +19,8 @@ export const data = {
     phone_1: "+91 81436 11625",
     phone_2: "+91 81436 11625",
     address:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore modi repellendus? Unde incidunt quaerat quod officiis, libero placeat numquam cum debitis aliquam dolor omnis, porro aliquid voluptas corporis aperiam?",
-    email: 'email@email.com'
+      "Plot No 70 & 83, Survey No: 649, Chennapuram Village, Jawahar Nagar, Municipal Corporation, Kapra Mandal, Medchal, Malkajigiri District, Hyd - 500087, TS.",
+    email: "email@email.com",
   },
   home_icons: [
     { icon: Bars3Icon, name: "bars" },
