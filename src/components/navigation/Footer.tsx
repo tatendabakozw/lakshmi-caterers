@@ -15,7 +15,7 @@ const Footer = (props: Props) => {
         <div className="col-span-1">
           <div className="flex flex-row items-center space-x-4">
             <PhoneArrowDownLeftIcon height={24} width={24} />
-            <div className="flex flex-col">
+            <div className="flex flex-col md:items-start">
               <p className="uppercase text-slate-900 font-semibold">Phone</p>
               <p className=" text-services-green">
                 {data.site_info.phone_1}
