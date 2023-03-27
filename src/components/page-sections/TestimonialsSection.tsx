@@ -22,8 +22,8 @@ const TestimonialsSection = (props: Props) => {
             plentiful`,
     },
     {
-        name: "Mary",
-        testimony: `Wish you well and encourage you
+      name: "Mary",
+      testimony: `Wish you well and encourage you
         to continue serving our community
         with healthy beautifully prepared
         food as you catered for us. It was a
@@ -31,10 +31,10 @@ const TestimonialsSection = (props: Props) => {
         served us was thoughtfully
         sourced, local, fair trade and
         organic.`,
-      },
-      {
-        name: "Santosh",
-        testimony: `The service is as extraordinary as their
+    },
+    {
+      name: "Santosh",
+      testimony: `The service is as extraordinary as their
         menu. Shree Lakshmi Catering's food is
         local, healthy, delicious, colorful, alive
         and was a big point of discussion
@@ -43,10 +43,10 @@ const TestimonialsSection = (props: Props) => {
         commented on how they have never
         had such tasty healthy food at an office
         event.`,
-      },
-      {
-        name: "Harika",
-        testimony: `Shree Lakshmi Catering's foodisdelicious!
+    },
+    {
+      name: "Harika",
+      testimony: `Shree Lakshmi Catering's foodisdelicious!
         My guests andI lovedthe foodandthere
         wereplenty of leftovers! TheService
         provided was right on time, they set it all
@@ -55,7 +55,7 @@ const TestimonialsSection = (props: Props) => {
         taking the stress out of cooking and
         cleaning! I willbe ordering again formy
         next catering event`,
-      },
+    },
   ];
   return (
     <div className=" bg-slate-100 w-full py-16 flex-wrap">
@@ -74,9 +74,19 @@ const TestimonialsSection = (props: Props) => {
             <Avatar name={item.name} size={"xl"} />
             <p className="text-slate-900 font-semibold text-lg">{item.name}</p>
             <RatingComponent ratings={4} />
-            <Text noOfLines={10}>
-                {item.testimony}
-            </Text>
+            <svg
+              aria-hidden="true"
+              className="w-10 h-10 text-gray-400 dark:text-gray-600"
+              viewBox="0 0 24 27"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                fill="currentColor"
+              />
+            </svg>
+            <Text noOfLines={10}>{item.testimony}</Text>
           </div>
         ))}
       </div>
