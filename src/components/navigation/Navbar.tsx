@@ -25,7 +25,7 @@ function Navbar({}: Props) {
         <div className="flex flex-row md:space-x-8 space-x-2">
           <a
             href=""
-            className="bg-green-original md:flrc hidden py-2 px-4 rounded-full text-white"
+            className="bg-green-original md:flex hidden py-2 px-4 rounded-full text-white"
           >
             Click Here
           </a>
