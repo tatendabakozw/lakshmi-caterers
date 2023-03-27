@@ -18,7 +18,7 @@ function Navbar({}: Props) {
         </div>
         <div className="md:flex hidden flex-row items-center flex-1 bg-slate-100 py-2 px-4 text-slate-500 rounded">
           <MagnifyingGlassIcon height={20} width={20} />
-          <input type="text" className="flex-1 p-2 bg-slate-100" />
+          <input type="text" className="flex-1 p-2 outline-none bg-slate-100" />
           <CakeIcon height={20} width={20} />
         </div>
         <div className="flex lg:px-12 md:px-8 px-2"></div>

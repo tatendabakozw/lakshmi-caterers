@@ -16,7 +16,7 @@ const ServicesSection = (props: Props) => {
     <div className="max-w-7xl w-full mx-auto flex flex-col  overflow-x-hidden">
       <SectionsHeading firstLetter="S" otherLetters="ervices" />
       <div
-        className="relative overflow-hidden flex flex-col items-end rounded-2xl p-8 mt-16"
+        className="relative overflow-hidden flex flex-col items-end rounded-2xl p-8 mx-2 mt-16"
         style={{
           backgroundImage: `url(${data.assets.cooperate_caterers})`,
           backgroundPosition: "center",
