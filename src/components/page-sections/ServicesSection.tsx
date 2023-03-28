@@ -31,7 +31,7 @@ const ServicesSection = (props: Props) => {
         <p className="py-8 text-xl font-semibold text-white z-10">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
-        <p className="z-10 text-slate-200 w-2/3 text-right">
+        <p className="z-10 text-slate-200 md:w-2/3 w-full md:text-right text-center">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. A voluptatem
           vero voluptate unde exercitationem, iusto dolor? Dolores inventore,
           natus vel quae saepe voluptatem totam recusandae possimus ipsa. Sint,
@@ -50,7 +50,7 @@ const ServicesSection = (props: Props) => {
                 item._id === selected_service
                   ? "bg-services-green text-slate-800 border-services-green "
                   : "text-white border-white "
-              } item border cursor-pointer flex-1 text-center  rounded-full px-4 py-2 `}
+              } item border cursor-pointer flex-1 text-center w-full rounded-full px-4 py-2 `}
             >
               {item.name}
             </div>
