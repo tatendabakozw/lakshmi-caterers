@@ -4,7 +4,9 @@ import {
   MagnifyingGlassIcon,
   CakeIcon,
   ShoppingBagIcon,
+  ArrowDownTrayIcon,
 } from "@heroicons/react/24/outline";
+import { Link } from "react-router-dom";
 
 type Props = {};
 
@@ -23,12 +25,15 @@ function Navbar({}: Props) {
         </div>
         <div className="flex lg:px-12 md:px-8 px-2"></div>
         <div className="flex flex-row md:space-x-8 space-x-2">
-          <a
-            href=""
-            className="bg-green-original md:flex hidden py-2 px-4 rounded-full text-white"
+          <Link
+            to='/shree-lakshmi-caterers-menu.pdf'
+            download
+            target="_blank"
+            className="bg-green-original flex flex-row space-x-2 items-center py-2 px-4 rounded-full text-white"
           >
-            Click Here
-          </a>
+            <p className="">Menu</p>
+            <ArrowDownTrayIcon height={20} width={20} />
+          </Link>
           <button
             type="button"
             className="relative inline-flex items-center text-sm font-medium text-center text-slate-700 rounded-lg"
