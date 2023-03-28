@@ -1,71 +1,81 @@
 import food from "@assets/wedding_caterers.jpg";
+import softdrinks from '@assets/menu/softdrinks.jpg'
+import fruitjuice from '@assets/menu/fruitjuice.jpg'
+import pickles from '@assets/menu/pickles.jpg'
+import drycurries from '@assets/menu/drycurries.jpg'
+import tomato_dal from '@assets/menu/tomato_dal.jpg'
+import manchurian from '@assets/menu/manchurian.jpg'
+import starters from '@assets/menu/starters.jpg'
+import chili_mashrooms from '@assets/menu/chili_mashrooms.jpg'
+import green_salad from '@assets/menu/green_salad.jpg'
+import yogurt from '@assets/menu/yogurt.jpg'
 
 export const veg_menu = [
   {
     name: "Welcome Drinks",
     items: [
-      { name: "Soft Drinks", image: food },
-      { name: "Fruit Juices", image: food },
+      { name: "Soft Drinks", image: softdrinks },
+      { name: "Fruit Juices", image: fruitjuice },
     ],
   },
   {
     name: "Pickles/Pachadi",
     items: [
-      { name: "Dosakaya", image: food },
-      { name: "Tomato", image: food },
-      { name: "Mango", image: food },
-      { name: "Red Chilli", image: food },
+      { name: "Dosakaya", image: pickles },
+      { name: "Tomato", image: pickles },
+      { name: "Mango", image: pickles },
+      { name: "Red Chilli", image: pickles },
     ],
   },
   {
     name: "Dry Curries",
     items: [
-      { name: "Bhendi Fry", image: food },
-      { name: "Veg 65", image: food },
-      { name: "Aloo Fry", image: food },
-      { name: "Carrot Beans Fry", image: food },
-      { name: "Vankaya", image: food },
-      { name: "Pakoda", image: food },
-      { name: "Gobi pakoda", image: food },
-      { name: "Kanda Fry", image: food },
+      { name: "Bhendi Fry", image: drycurries },
+      { name: "Veg 65", image: drycurries },
+      { name: "Aloo Fry", image: drycurries },
+      { name: "Carrot Beans Fry", image: drycurries },
+      { name: "Vankaya", image: drycurries },
+      { name: "Pakoda", image: drycurries },
+      { name: "Gobi pakoda", image: drycurries },
+      { name: "Kanda Fry", image: drycurries },
     ],
   },
   {
     name: "Dal",
     items: [
-      { name: "Tomato Dal", image: food },
-      { name: "Palak Dal", image: food },
-      { name: "Dal Tadka", image: food },
-      { name: "Mango Dal", image: food },
-      { name: "Dal Makhani", image: food },
-      { name: "Sambar", image: food },
-      { name: "Gongura Dal", image: food },
+      { name: "Tomato Dal", image: tomato_dal },
+      { name: "Palak Dal", image: tomato_dal },
+      { name: "Dal Tadka", image: tomato_dal },
+      { name: "Mango Dal", image: tomato_dal },
+      { name: "Dal Makhani", image: tomato_dal },
+      { name: "Sambar", image: tomato_dal },
+      { name: "Gongura Dal", image: tomato_dal },
     ],
   },
   {
     name: "Starters",
     items: [
-      { name: "Gobi Manchurian", image: food },
-      { name: "Aloo 65", image: food },
-      { name: "Veg bullets", image: food },
-      { name: "Chrisy Veg", image: food },
-      { name: "Spring rolls", image: food },
-      { name: "Shanghai rolls", image: food },
-      { name: "Baby corns", image: food },
-      { name: "Majestic", image: food },
-      { name: "Chili Mushrooms", image: food },
+      { name: "Gobi Manchurian", image: manchurian },
+      { name: "Aloo 65", image: starters },
+      { name: "Veg bullets", image: starters },
+      { name: "Chrisy Veg", image: starters },
+      { name: "Spring rolls", image: starters },
+      { name: "Shanghai rolls", image: starters },
+      { name: "Baby corns", image: starters },
+      { name: "Majestic", image: starters },
+      { name: "Chili Mushrooms", image: chili_mashrooms },
     ],
   },
   {
     name: "Snacks",
     items: [
-      { name: "Green Salad", image: food },
+      { name: "Green Salad", image: green_salad },
       { name: "Aloo Chat", image: food },
       { name: "Aloo Channa", image: food },
       { name: "Chat", image: food },
       { name: "Peanut Chat", image: food },
       { name: "Cucumber", image: food },
-      { name: "Yoghurt", image: food },
+      { name: "Yoghurt", image: yogurt },
     ],
   },
   {

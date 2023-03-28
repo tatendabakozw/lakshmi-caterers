@@ -25,7 +25,7 @@ const MenuSection = (props: Props) => {
             <div className="flex flex-col space-y-4">
               {item.items.map((item, index)=>(
                 <div key={index} className="flex flex-row items-center bg-white rounded-2xl ">
-                <Avatar size={'lg'} src={food} />
+                <Avatar size={'lg'} src={item.image} />
                 <p className="pl-8 w-full text-lg font-semibold">{item.name}</p>
               </div>
               ))}
