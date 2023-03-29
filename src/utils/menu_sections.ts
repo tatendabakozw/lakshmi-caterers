@@ -53,6 +53,13 @@ import paneer_masala from '@assets/menu/paneer_masala.jpeg'
 import kaju_paneer from '@assets/menu/kaju_panner.jpeg'
 import aloo_gobi from '@assets/menu/aloo_gobi.jpeg'
 import palak_paneer from '@assets/menu/palak_paneer.jpeg'
+import plain_raitha from '@assets/menu/plain_curd.jpeg'
+import cucumber_raitha from '@assets/menu/cucumber_raitha.jpeg'
+import mixed_raitha from '@assets/menu/mixed_raitha.jpeg'
+import boondi_raitha from '@assets/menu/boondi_raitha.jpeg'
+import tomato_raitha from '@assets/menu/tomato_raitha.jpeg'
+import onion_raitha from '@assets/menu/onion_raitha.jpeg'
+
 
 
 export const veg_menu = [
@@ -149,12 +156,12 @@ export const veg_menu = [
   {
     name: "Curd/Raitha",
     items: [
-      { name: "Plain Curd", image: food },
-      { name: "Cucumber Raitha", image: food },
-      { name: "Mixed Raitha", image: food },
-      { name: "Boondi Raitha", image: food },
-      { name: "Tomato Raitha", image: food },
-      { name: "Onion Raitha", image: food },
+      { name: "Plain Curd", image: plain_raitha },
+      { name: "Cucumber Raitha", image: cucumber_raitha },
+      { name: "Mixed Raitha", image: mixed_raitha },
+      { name: "Boondi Raitha", image: boondi_raitha },
+      { name: "Tomato Raitha", image: tomato_raitha },
+      { name: "Onion Raitha", image: onion_raitha },
     ],
   },
   {
