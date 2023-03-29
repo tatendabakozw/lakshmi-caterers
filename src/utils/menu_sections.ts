@@ -16,6 +16,11 @@ import red_chili_pachadi from '@assets/menu/red_chilli_pachadi.jpeg'
 import veg_65 from '@assets/menu/veg_65.jpeg'
 import bhendi_fry from '@assets/menu/bhendi_fry.jpeg'
 import aloo_fry from '@assets/menu/aloo_fry.jpeg'
+import carot_beans_fry from '@assets/menu/carrot_beans_fry.jpeg'
+import vankaya from '@assets/menu/vankaya.jpeg'
+import pakoda from '@assets/menu/pakoda.jpg'
+import gobi_pakoda from '@assets/menu/gobi_pakoda.jpg'
+import kanda_fry from '@assets/menu/kanda_fry.jpg'
 
 export const veg_menu = [
   {
@@ -40,11 +45,11 @@ export const veg_menu = [
       { name: "Bhendi Fry", image: bhendi_fry },
       { name: "Veg 65", image: veg_65 },
       { name: "Aloo Fry", image: aloo_fry },
-      { name: "Carrot Beans Fry", image: drycurries },
-      { name: "Vankaya", image: drycurries },
-      { name: "Pakoda", image: drycurries },
-      { name: "Gobi pakoda", image: drycurries },
-      { name: "Kanda Fry", image: drycurries },
+      { name: "Carrot Beans Fry", image: carot_beans_fry },
+      { name: "Vankaya", image: vankaya },
+      { name: "Pakoda", image: pakoda },
+      { name: "Gobi pakoda", image: gobi_pakoda },
+      { name: "Kanda Fry", image: kanda_fry },
     ],
   },
   {
