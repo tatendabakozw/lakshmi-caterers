@@ -21,6 +21,14 @@ import vankaya from '@assets/menu/vankaya.jpeg'
 import pakoda from '@assets/menu/pakoda.jpg'
 import gobi_pakoda from '@assets/menu/gobi_pakoda.jpg'
 import kanda_fry from '@assets/menu/kanda_fry.jpg'
+import palak_dal from '@assets/menu/palak_dal.jpeg'
+import dal_tadka from '@assets/menu/dal_tadka.jpeg'
+import mango_dal from '@assets/menu/mango_dal.jpeg'
+import dal_makhani from '@assets/menu/dal_makhani.jpeg'
+import samar from '@assets/menu/samar.jpg'
+import gongura_dal from '@assets/menu/gongura_dal.jpeg'
+
+
 
 export const veg_menu = [
   {
@@ -56,12 +64,12 @@ export const veg_menu = [
     name: "Dal",
     items: [
       { name: "Tomato Dal", image: tomato_dal },
-      { name: "Palak Dal", image: tomato_dal },
-      { name: "Dal Tadka", image: tomato_dal },
-      { name: "Mango Dal", image: tomato_dal },
-      { name: "Dal Makhani", image: tomato_dal },
-      { name: "Sambar", image: tomato_dal },
-      { name: "Gongura Dal", image: tomato_dal },
+      { name: "Palak Dal", image: palak_dal },
+      { name: "Dal Tadka", image: dal_makhani },
+      { name: "Mango Dal", image: mango_dal },
+      { name: "Dal Makhani", image: dal_makhani },
+      { name: "Sambar", image: samar },
+      { name: "Gongura Dal", image: gongura_dal },
     ],
   },
   {
