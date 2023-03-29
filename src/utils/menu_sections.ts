@@ -35,6 +35,25 @@ import aloo_chat from '@assets/menu/aloo_chat.jpeg'
 import aloo_channa from '@assets/menu/aloo_channa.jpeg'
 import peanut_chat from '@assets/menu/peanut_chat.jpeg'
 import cucumber_chat from '@assets/menu/cucumber_chat.jpeg'
+import bagara_baingan from '@assets/menu/bagara_baingan.jpg'
+import gutti_vankaya from '@assets/menu/gutti_vankaya.jpeg'
+import mixed_veg_curry from '@assets/menu/mixed_veg_curry.jpeg'
+import tomato_munakad from '@assets/menu/tomato_munakad.jpeg'
+import tomato_mirchi from '@assets/menu/tomato_mirchi.jpeg'
+import masala from '@assets/menu/masala.jpeg'
+import capsicum_masala from '@assets/menu/capsicum_masala.jpeg'
+import chana_masala from '@assets/menu/chana_masala.jpeg'
+import veg_kadai from '@assets/menu/veg_kadai.jpeg'
+import baby_corn_masala from '@assets/menu/baby_corn_masala.jpeg'
+import aloo_tomato_kur from '@assets/menu/aloo_tomato_kur.jpeg'
+import gobi_manchurian from '@assets/menu/gobi_manchurian.jpeg'
+import gravy from '@assets/menu/gravy.jpeg'
+import mirchi_ka_salan from '@assets/menu/mirchi_ka_salan.jpeg'
+import paneer_masala from '@assets/menu/paneer_masala.jpeg'
+import kaju_paneer from '@assets/menu/kaju_panner.jpeg'
+import aloo_gobi from '@assets/menu/aloo_gobi.jpeg'
+import palak_paneer from '@assets/menu/palak_paneer.jpeg'
+
 
 export const veg_menu = [
   {
@@ -107,24 +126,24 @@ export const veg_menu = [
   {
     name: "Gravy Curries",
     items: [
-      { name: "Bagara Baingan", image: food },
-      { name: "Gutti Vankaya", image: food },
-      { name: "Mixed Veg Curry", image: food },
-      { name: "Tomato Munakad", image: food },
-      { name: "Tomato Mirchi", image: food },
-      { name: "Masala", image: food },
-      { name: "Capsicum Masala", image: food },
-      { name: "Chana Masala", image: food },
-      { name: "Veg Kadai", image: food },
-      { name: "Baby Corn Masal", image: food },
-      { name: "Aloo Tomato Kur", image: food },
-      { name: "Gobi Manchurian", image: food },
-      { name: "Gravy", image: food },
-      { name: "Mirchi ka Salan", image: food },
-      { name: "Paneer Masala", image: food },
-      { name: "Kaju Paneer", image: food },
-      { name: "Aloo Gobi", image: food },
-      { name: "Palak Paneer", image: food },
+      { name: "Bagara Baingan", image: bagara_baingan },
+      { name: "Gutti Vankaya", image: gutti_vankaya },
+      { name: "Mixed Veg Curry", image: mixed_veg_curry },
+      { name: "Tomato Munakad", image: tomato_munakad },
+      { name: "Tomato Mirchi", image: tomato_mirchi },
+      { name: "Masala", image: masala },
+      { name: "Capsicum Masala", image: capsicum_masala },
+      { name: "Chana Masala", image: chana_masala },
+      { name: "Veg Kadai", image: veg_kadai },
+      { name: "Baby Corn Masal", image: baby_corn_masala },
+      { name: "Aloo Tomato Kur", image: aloo_tomato_kur },
+      { name: "Gobi Manchurian", image: gobi_manchurian },
+      { name: "Gravy", image: gravy },
+      { name: "Mirchi ka Salan", image: mirchi_ka_salan },
+      { name: "Paneer Masala", image: paneer_masala },
+      { name: "Kaju Paneer", image: kaju_paneer },
+      { name: "Aloo Gobi", image: aloo_gobi },
+      { name: "Palak Paneer", image: palak_paneer },
     ],
   },
   {
