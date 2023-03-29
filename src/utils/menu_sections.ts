@@ -31,6 +31,10 @@ import chrisy_veg from '@assets/menu/chrisy_veg.jpeg'
 import spring_rolls from '@assets/menu/spring_rolls.jpeg'
 import shangani_rolls from '@assets/menu/shangani_rolls.jpeg'
 import baby_corns from '@assets/menu/baby_corns.jpeg'
+import aloo_chat from '@assets/menu/aloo_chat.jpeg'
+import aloo_channa from '@assets/menu/aloo_channa.jpeg'
+import peanut_chat from '@assets/menu/peanut_chat.jpeg'
+import cucumber_chat from '@assets/menu/cucumber_chat.jpeg'
 
 export const veg_menu = [
   {
@@ -92,11 +96,11 @@ export const veg_menu = [
     name: "Snacks",
     items: [
       { name: "Green Salad", image: green_salad },
-      { name: "Aloo Chat", image: food },
-      { name: "Aloo Channa", image: food },
+      { name: "Aloo Chat", image: aloo_chat },
+      { name: "Aloo Channa", image: aloo_channa },
       { name: "Chat", image: food },
-      { name: "Peanut Chat", image: food },
-      { name: "Cucumber", image: food },
+      { name: "Peanut Chat", image: peanut_chat },
+      { name: "Cucumber", image: cucumber_chat },
       { name: "Yoghurt", image: yogurt },
     ],
   },
