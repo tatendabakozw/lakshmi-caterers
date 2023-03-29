@@ -9,6 +9,7 @@ import {
 } from "@heroicons/react/24/solid";
 import cooperate_caterers from "@assets/cooperate-caterers.jpg";
 import wedding_caterers from "@assets/wedding_caterers.jpg";
+import services_bg from '@assets/services_bg.jpeg'
 
 export const data = {
   site_info: {
@@ -32,6 +33,7 @@ export const data = {
   assets: {
     cooperate_caterers: cooperate_caterers,
     wedding_caterers: wedding_caterers,
+    services_bg: services_bg
   },
 };
 

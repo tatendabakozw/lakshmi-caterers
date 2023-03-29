@@ -28,4 +28,12 @@ export const removeFromArray = (arr: any[], key: string) => {
     const exists = newitem ? true : false;
     return exists;
   };
+
+  // find from array
+  export const findFromArray = (arr: any[], key: string) => {
+    const newitem = arr.find((item) => item._id === key);
+    const exists = newitem ? true : false;
+    return newitem;
+  };
+
   
