@@ -1,8 +1,6 @@
 import food from "@assets/wedding_caterers.jpg";
 import softdrinks from '@assets/menu/softdrinks.jpg'
 import fruitjuice from '@assets/menu/fruitjuice.jpg'
-import pickles from '@assets/menu/pickles.jpg'
-import drycurries from '@assets/menu/drycurries.jpg'
 import tomato_dal from '@assets/menu/tomato_dal.jpg'
 import manchurian from '@assets/menu/manchurian.jpg'
 import starters from '@assets/menu/starters.jpg'
@@ -27,8 +25,12 @@ import mango_dal from '@assets/menu/mango_dal.jpeg'
 import dal_makhani from '@assets/menu/dal_makhani.jpeg'
 import samar from '@assets/menu/samar.jpg'
 import gongura_dal from '@assets/menu/gongura_dal.jpeg'
-
-
+import aloo65 from '@assets/menu/aloo65.jpeg'
+import veg_bullets from '@assets/menu/veg_bullets.jpeg'
+import chrisy_veg from '@assets/menu/chrisy_veg.jpeg'
+import spring_rolls from '@assets/menu/spring_rolls.jpeg'
+import shangani_rolls from '@assets/menu/shangani_rolls.jpeg'
+import baby_corns from '@assets/menu/baby_corns.jpeg'
 
 export const veg_menu = [
   {
@@ -65,7 +67,7 @@ export const veg_menu = [
     items: [
       { name: "Tomato Dal", image: tomato_dal },
       { name: "Palak Dal", image: palak_dal },
-      { name: "Dal Tadka", image: dal_makhani },
+      { name: "Dal Tadka", image: dal_tadka },
       { name: "Mango Dal", image: mango_dal },
       { name: "Dal Makhani", image: dal_makhani },
       { name: "Sambar", image: samar },
@@ -76,12 +78,12 @@ export const veg_menu = [
     name: "Starters",
     items: [
       { name: "Gobi Manchurian", image: manchurian },
-      { name: "Aloo 65", image: starters },
-      { name: "Veg bullets", image: starters },
-      { name: "Chrisy Veg", image: starters },
-      { name: "Spring rolls", image: starters },
-      { name: "Shanghai rolls", image: starters },
-      { name: "Baby corns", image: starters },
+      { name: "Aloo 65", image: aloo65 },
+      { name: "Veg bullets", image: veg_bullets },
+      { name: "Chrisy Veg", image: chrisy_veg },
+      { name: "Spring rolls", image: spring_rolls },
+      { name: "Shanghai rolls", image: shangani_rolls },
+      { name: "Baby corns", image: baby_corns },
       { name: "Majestic", image: starters },
       { name: "Chili Mushrooms", image: chili_mashrooms },
     ],
