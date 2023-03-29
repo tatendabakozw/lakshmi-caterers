@@ -13,6 +13,9 @@ import dosakaya from '@assets/menu/dosakaya.jpeg'
 import tomato_pachadi from '@assets/menu/tomato_pachadi.jpeg'
 import mango_pachadi from '@assets/menu/mango_pachadi.jpeg'
 import red_chili_pachadi from '@assets/menu/red_chilli_pachadi.jpeg'
+import veg_65 from '@assets/menu/veg_65.jpeg'
+import bhendi_fry from '@assets/menu/bhendi_fry.jpeg'
+import aloo_fry from '@assets/menu/aloo_fry.jpeg'
 
 export const veg_menu = [
   {
@@ -34,9 +37,9 @@ export const veg_menu = [
   {
     name: "Dry Curries",
     items: [
-      { name: "Bhendi Fry", image: drycurries },
-      { name: "Veg 65", image: drycurries },
-      { name: "Aloo Fry", image: drycurries },
+      { name: "Bhendi Fry", image: bhendi_fry },
+      { name: "Veg 65", image: veg_65 },
+      { name: "Aloo Fry", image: aloo_fry },
       { name: "Carrot Beans Fry", image: drycurries },
       { name: "Vankaya", image: drycurries },
       { name: "Pakoda", image: drycurries },
