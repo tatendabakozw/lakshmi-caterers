@@ -9,6 +9,10 @@ import starters from '@assets/menu/starters.jpg'
 import chili_mashrooms from '@assets/menu/chili_mashrooms.jpg'
 import green_salad from '@assets/menu/green_salad.jpg'
 import yogurt from '@assets/menu/yogurt.jpg'
+import dosakaya from '@assets/menu/dosakaya.jpeg'
+import tomato_pachadi from '@assets/menu/tomato_pachadi.jpeg'
+import mango_pachadi from '@assets/menu/mango_pachadi.jpeg'
+import red_chili_pachadi from '@assets/menu/red_chilli_pachadi.jpeg'
 
 export const veg_menu = [
   {
@@ -21,10 +25,10 @@ export const veg_menu = [
   {
     name: "Pickles/Pachadi",
     items: [
-      { name: "Dosakaya", image: pickles },
-      { name: "Tomato", image: pickles },
-      { name: "Mango", image: pickles },
-      { name: "Red Chilli", image: pickles },
+      { name: "Dosakaya", image: dosakaya },
+      { name: "Tomato", image: tomato_pachadi },
+      { name: "Mango", image: mango_pachadi },
+      { name: "Red Chilli", image: red_chili_pachadi },
     ],
   },
   {
