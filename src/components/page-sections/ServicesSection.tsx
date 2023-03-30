@@ -124,35 +124,9 @@ const ServicesSection = (props: Props) => {
         <div className="flex flex-row pt-8">
           <div className="flex md:flex-row flex-col items-center gap-8 w-full justify-between ">
             {catering_types.map((item, index) => (
-              // <div
-              //   key={index}
-              //   className={`${
-              //     selected_catering_type === item.value
-              //       ? "border-2 border-green-light"
-              //       : ""
-              //   } relative overflow-hidden rounded-2xl grid items-center content-center justify-center`}
-              // >
-              //   <span
-              //     onClick={() => setSelectedCateringType(item.value)}
-              //     className={`${
-              //       selected_catering_type === item.value
-              //         ? "border-2 border-white"
-              //         : ""
-              //     } relative overflow-hidden rounded-2xl p-12 grid items-center content-center justify-center w-full`}
-              //     style={{
-              //       backgroundImage: `url(${data.assets.wedding_caterers})`,
-              //       backgroundPosition: "center",
-              //       backgroundSize: "cover",
-              //       width: "100%",
-              //     }}
-              //   >
-              //     <div className="overlay absolute top-0 right-0 left-0 bottom-0 bg-black z-0 opacity-40"></div>
-              //     <p className="absolute text-white z-40 text-center left-0 right-0">
-              //       {item.name}
-              //     </p>
-              //   </span>
-              // </div>
+              
               <div
+              key={index}
                 className={`flex  w-full ${
                   selected_catering_type === item.value
                     ? "border-2 border-green-light "
