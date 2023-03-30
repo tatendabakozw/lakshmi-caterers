@@ -1,4 +1,5 @@
 import { Avatar } from "@chakra-ui/react";
+import VegMenuModal from "@components/modals/VegMenuModal";
 import SectionsHeading from "@components/sections-heading/SectionsHeading";
 import { veg_menu } from "@utils/menu_sections";
 // @ts-ignore
@@ -14,9 +15,7 @@ const MenuSection = (props: Props) => {
       </Slide>
       <div className="flex">
         <Slide bottom duration={550}>
-          <div className="flex bg-services-green p-3 my-8 text-lg text-slate-800 font-semibold text-center rounded-xl">
-            Veg Items
-          </div>
+          <VegMenuModal />
         </Slide>
       </div>
 

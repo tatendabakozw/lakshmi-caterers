@@ -49,7 +49,7 @@ const ServicesSection = (props: Props) => {
   console.log();
 
   return (
-    <div className="max-w-7xl w-full mx-auto flex flex-col  overflow-x-hidden">
+    <div className="max-w-7xl w-full mx-auto flex flex-col pb-16  overflow-x-hidden">
       <Slide bottom duration={500}>
         <SectionsHeading firstLetter="S" otherLetters="ervices" />
       </Slide>
@@ -76,7 +76,7 @@ const ServicesSection = (props: Props) => {
             {findFromArray(catering_types, selected_catering_type).description}
           </p>
 
-          <div className="flex md:flex-row flex-col items-center z-10 pt-16 justify-between w-full gap-8">
+          {/* <div className="flex md:flex-row flex-col items-center z-10 pt-16 justify-between w-full gap-8">
             {services_tabs.map((item, index) => (
               <div
                 key={index}
@@ -90,13 +90,13 @@ const ServicesSection = (props: Props) => {
                 {item.name}
               </div>
             ))}
-          </div>
-          <div className="pt-8 w-full text-center text-white z-10">
+          </div> */}
+          {/* <div className="pt-8 w-full text-center text-white z-10">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nostrum
             facere quae dolorem illum consequuntur ipsam assumenda suscipit aut
             sed, quis temporibus iusto ipsa minus repellendus fugit fuga nobis
             voluptatum!
-          </div>
+          </div> */}
         </div>
       </Slide>
 
@@ -104,26 +104,61 @@ const ServicesSection = (props: Props) => {
         <div className="flex flex-row pt-8">
           <div className="flex md:flex-row flex-col items-center gap-8 w-full justify-between ">
             {catering_types.map((item, index) => (
-              <span
-                key={index}
-                onClick={() => setSelectedCateringType(item.value)}
-                className={`${
+              // <div
+              //   key={index}
+              //   className={`${
+              //     selected_catering_type === item.value
+              //       ? "border-2 border-green-light"
+              //       : ""
+              //   } relative overflow-hidden rounded-2xl grid items-center content-center justify-center`}
+              // >
+              //   <span
+              //     onClick={() => setSelectedCateringType(item.value)}
+              //     className={`${
+              //       selected_catering_type === item.value
+              //         ? "border-2 border-white"
+              //         : ""
+              //     } relative overflow-hidden rounded-2xl p-12 grid items-center content-center justify-center w-full`}
+              //     style={{
+              //       backgroundImage: `url(${data.assets.wedding_caterers})`,
+              //       backgroundPosition: "center",
+              //       backgroundSize: "cover",
+              //       width: "100%",
+              //     }}
+              //   >
+              //     <div className="overlay absolute top-0 right-0 left-0 bottom-0 bg-black z-0 opacity-40"></div>
+              //     <p className="absolute text-white z-40 text-center left-0 right-0">
+              //       {item.name}
+              //     </p>
+              //   </span>
+              // </div>
+              <div
+                className={`flex  w-full ${
                   selected_catering_type === item.value
-                    ? "border-2 border-green-light"
-                    : ""
-                } relative overflow-hidden rounded-2xl p-12 grid items-center content-center justify-center`}
-                style={{
-                  backgroundImage: `url(${data.assets.wedding_caterers})`,
-                  backgroundPosition: "center",
-                  backgroundSize: "cover",
-                  width: "100%",
-                }}
+                    ? "border-2 border-green-light "
+                    : " "
+                } rounded-2xl`}
               >
-                <div className="overlay absolute top-0 right-0 left-0 bottom-0 bg-black z-0 opacity-40"></div>
-                <p className="absolute text-white z-40 text-center left-0 right-0">
-                  {item.name}
-                </p>
-              </span>
+                <div className="border-2 border-white w-full rounded-2xl">
+                  <span
+                    onClick={() => setSelectedCateringType(item.value)}
+                    className={`${
+                      selected_catering_type === item.value ? "" : ""
+                    } relative overflow-hidden rounded-2xl p-12 grid items-center content-center justify-center w-full`}
+                    style={{
+                      backgroundImage: `url(${data.assets.wedding_caterers})`,
+                      backgroundPosition: "center",
+                      backgroundSize: "cover",
+                      width: "100%",
+                    }}
+                  >
+                    <div className="overlay absolute top-0 right-0 left-0 bottom-0 bg-black z-0 opacity-40"></div>
+                    <p className="absolute text-white z-40 text-center left-0 right-0">
+                      {item.name}
+                    </p>
+                  </span>
+                </div>
+              </div>
             ))}
           </div>
         </div>
