@@ -63,6 +63,16 @@ import ras_malai from '@assets/menu/ras_malai.jpeg'
 import khadu_kheer from '@assets/menu/khadu_kheer.jpeg'
 import trifle_pudding from '@assets/menu/trifle_pudding.jpeg'
 import basundi from '@assets/menu/basundi.jpeg'
+import kala_juman from '@assets/menu/kala_jamun.jpeg'
+import qurbani_ka from '@assets/menu/qurbani_ka.jpeg'
+import meetha from '@assets/menu/meetha.jpeg'
+import carrot_halwa from '@assets/menu/carrot_halwa.jpeg'
+import semiya_payasa from '@assets/menu/semiya_payasa.jpeg'
+import double_ka from '@assets/menu/double_ka.jpeg'
+import meetha_gulab from '@assets/menu/meetha_gulab.jpeg'
+import juman from '@assets/menu/jamun.jpeg'
+import fruit_salad from '@assets/menu/fruit_salad.jpeg'
+import custard from '@assets/menu/custard.jpeg'
 
 export const veg_menu = [
   {
@@ -178,16 +188,16 @@ export const veg_menu = [
   {
     name: "Sweets",
     items: [
-      { name: "Kala Jamun", image: food },
-      { name: "Qurbani Ka", image: food },
-      { name: "Meetha", image: food },
-      { name: "Carrot Halwa", image: food },
-      { name: "Semiya Payasam", image: food },
-      { name: "Double Ka", image: food },
-      { name: "Meetha Gulab", image: food },
-      { name: "Jamun", image: food },
-      { name: "Fruit Salad", image: food },
-      { name: "Custard", image: food },
+      { name: "Kala Jamun", image: kala_juman },
+      { name: "Qurbani Ka", image: qurbani_ka },
+      { name: "Meetha", image: meetha },
+      { name: "Carrot Halwa", image: carrot_halwa },
+      { name: "Semiya Payasam", image: semiya_payasa },
+      { name: "Double Ka", image: double_ka },
+      { name: "Meetha Gulab", image: meetha_gulab },
+      { name: "Jamun", image: juman },
+      { name: "Fruit Salad", image: fruit_salad },
+      { name: "Custard", image: custard },
     ],
   },
 ];
