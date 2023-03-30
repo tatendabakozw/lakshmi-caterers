@@ -59,8 +59,10 @@ import mixed_raitha from '@assets/menu/mixed_raitha.jpeg'
 import boondi_raitha from '@assets/menu/boondi_raitha.jpeg'
 import tomato_raitha from '@assets/menu/tomato_raitha.jpeg'
 import onion_raitha from '@assets/menu/onion_raitha.jpeg'
-
-
+import ras_malai from '@assets/menu/ras_malai.jpeg'
+import khadu_kheer from '@assets/menu/khadu_kheer.jpeg'
+import trifle_pudding from '@assets/menu/trifle_pudding.jpeg'
+import basundi from '@assets/menu/basundi.jpeg'
 
 export const veg_menu = [
   {
@@ -167,10 +169,10 @@ export const veg_menu = [
   {
     name: "Desert",
     items: [
-      { name: "Ras Malai", image: food },
-      { name: "Khadu Kheer", image: food },
-      { name: "Trifle Pudding", image: food },
-      { name: "Basundi", image: food },
+      { name: "Ras Malai", image: ras_malai },
+      { name: "Khadu Kheer", image: khadu_kheer },
+      { name: "Trifle Pudding", image: trifle_pudding },
+      { name: "Basundi", image: basundi },
     ],
   },
   {

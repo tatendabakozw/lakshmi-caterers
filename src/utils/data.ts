@@ -6,6 +6,7 @@ import {
   CakeIcon,
   HeartIcon,
   HomeIcon,
+  PhotoIcon,
 } from "@heroicons/react/24/solid";
 import cooperate_caterers from "@assets/cooperate-caterers.jpg";
 import wedding_caterers from "@assets/wedding_caterers.jpg";
@@ -27,7 +28,7 @@ export const data = {
     { icon: Bars3Icon, name: "bars" },
     { icon: HeartIcon, name: "heart" },
     { icon: HomeIcon, name: "home" },
-    { icon: CakeIcon, name: "cake" },
+    { icon: PhotoIcon, name: "gallery" },
     { icon: BookmarkSquareIcon, name: "book" },
   ],
   assets: {

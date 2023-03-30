@@ -24,7 +24,7 @@ const GallerySection = (props: Props) => {
 
   console.log(images);
   return (
-    <div className="max-w-7xl w-full mx-auto flex flex-col py-16">
+    <div id="gallery" className="max-w-7xl w-full mx-auto flex flex-col py-16">
       <SectionsHeading firstLetter="G" otherLetters="allery" />
       <p className="pt-8 pb-4 text-lg font-semibold">Images</p>
 
