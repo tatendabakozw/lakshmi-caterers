@@ -19,7 +19,7 @@ const Footer = (props: Props) => {
               <p className="uppercase text-slate-900 font-semibold">Phone</p>
               <p className=" text-services-green">
                 {data.site_info.phone_1}
-                {data.site_info.phone_2 ? `/${data.site_info.phone_2}` : ""}
+                {/* {data.site_info.phone_2 ? `/${data.site_info.phone_2}` : ""} */}
               </p>
             </div>
           </div>
@@ -41,7 +41,7 @@ const Footer = (props: Props) => {
               <EnvelopeIcon height={24} width={24} />
             </div>
             <div className="flex flex-col">
-              <p className="uppercase text-slate-900 font-semibold">Address</p>
+              <p className="uppercase text-slate-900 font-semibold">Email</p>
               <p className=" text-services-green">{data.site_info.email}</p>
             </div>
           </div>

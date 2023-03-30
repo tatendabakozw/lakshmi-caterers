@@ -17,8 +17,8 @@ export const data = {
     slogan: "Tasty & Quality food at reasonable rates",
     logo: logo,
     icon: icon,
-    phone_1: "+91 81436 11625",
-    phone_2: "+91 81436 11625",
+    phone_1: "+9198143611625",
+    // phone_2: "+91 81436 11625",
     address:
       "Plot No 70 & 83, Survey No: 649, Chennapuram Village, Jawahar Nagar, Municipal Corporation, Kapra Mandal, Medchal, Malkajigiri District, Hyd - 500087, TS.",
     email: "caterersshreelakshmi@gmail.com",

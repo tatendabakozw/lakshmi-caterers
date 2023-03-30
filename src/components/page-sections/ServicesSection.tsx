@@ -10,7 +10,7 @@ type Props = {};
 const ServicesSection = (props: Props) => {
   const [selected_service, setSelectedService] = useState("name-one");
   const [selected_catering_type, setSelectedCateringType] =
-    useState("coperate-caterers");
+    useState("Corporate-caterers");
 
   const services_tabs = [
     { name: "name one", _id: "name-one" },
@@ -21,9 +21,9 @@ const ServicesSection = (props: Props) => {
 
   const catering_types = [
     {
-      name: "Coperate Caterers",
-      value: "coperate-caterers",
-      _id: "coperate-caterers",
+      name: "Corporate Caterers",
+      value: "Corporate-caterers",
+      _id: "Corporate-caterers",
       sub_heading: "We can provide food to the stuff of a given organisation.",
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. A voluptatem vero voluptate unde exercitationem, iusto dolor? Dolores inventore, natus vel quae saepe voluptatem totam recusandae possimus ipsa. Sint, ratione quaerat. Nostrum totam ullam tempora possimus eaque quia, at facere soluta distinctio. Aliquid laudantium placeat nihil a doloribus mollitia inventore! Incidunt accusamus excepturi quos sed asperiores et odio nisi atque ratione!",

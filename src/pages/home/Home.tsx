@@ -14,10 +14,10 @@ const Home = (props: Props):ReactElement => {
   return (
     <GeneralLayout>
       <HeroSection />
-      <ServicesSection />
+      <AboutSection/>
       <MenuSection />
       <GallerySection />
-      <AboutSection/>
+      <ServicesSection />
       <TestimonialsSection />
       <ContactSection />
       
