@@ -46,10 +46,12 @@ const Footer = (props: Props) => {
             </div>
           </div>
           <div className="flex flex-row space-x-4 text-green-original items-center">
-            <FaYoutube size={24} color="" />
+            <a href="https://instagram.com/shreelakshmicaterers?igshid=ZDdkNTZiNTM=" target={"_blank"}>
             <FaInstagram size={24} color="" />
+            </a>
+            <a target={"_blank"} href="https://m.facebook.com/100090375713207/">
             <FaFacebookF size={24} color="" />
-            <FaTwitter size={24} color="" />
+            </a>
           </div>
         </div>
       </div>
