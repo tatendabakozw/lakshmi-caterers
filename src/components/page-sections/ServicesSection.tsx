@@ -13,10 +13,29 @@ const ServicesSection = (props: Props) => {
     useState("Corporate-caterers");
 
   const services_tabs = [
-    { name: "name one", _id: "name-one" },
-    { name: "name two", _id: "name-two" },
-    { name: "name three", _id: "name-three" },
-    { name: "name four", _id: "name-four" },
+    {
+      name: "Team Lunches:",
+      _id: "name-one",
+      description:
+        "Planning for a team lunch this week? You don’t need to step out of the comfort of your office. Just call Shree Lakshmi Caterers and relish the best team lunch & conversation without leaving the comfort of your air-conditioned office. Plan your upcoming project with our top-notch food.",
+    },
+    {
+      name: "Meetings & Training",
+      _id: "name-two",
+      description: `Meetings and training are a very important part of any successful corporation. Great food caters as an impetus & helps employee in coming out with ground-breaking ideas for all projects. So, make your corporate meeting and training sessions encouraging with our best quality food.`,
+    },
+    {
+      name: "Corporate Events",
+      _id: "name-three",
+      description: `Looking for a corporate caterer in Hyderabad for your upcoming corporate event? Let Shree Lakshmi Caterers take the charge and wow your guests with top-quality foods. Whether it is a media event or product lunch food from us is the best and safest investment you can make.`,
+    },
+    {
+      name: "Office Celebrations",
+      _id: "name-four",
+      description: `We understand how critical those small wins & achievements can be! Be it   cracking an awesome deal or reaching the required sales target celebrate your employees’ milestone with the best corporate caterer in Hyderabad by your side. Enjoy your wins with scrumptious and healthy foods from Shree Lakshmi Caterers.
+
+    We give strict attention to the requirements when we serve any corporate client. For example, if you’ve some international clients visiting your office we can tailor the menu as per their taste & preferences. We regularly update ourselves on both local and internal cuisines. Once you let us know your requirement, rest assured that you are going to enjoy the best corporate catering service in Hyderabad.`,
+    },
   ];
 
   const catering_types = [
@@ -24,17 +43,19 @@ const ServicesSection = (props: Props) => {
       name: "Corporate Caterers",
       value: "Corporate-caterers",
       _id: "Corporate-caterers",
-      sub_heading: "We can provide food to the stuff of a given organisation.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. A voluptatem vero voluptate unde exercitationem, iusto dolor? Dolores inventore, natus vel quae saepe voluptatem totam recusandae possimus ipsa. Sint, ratione quaerat. Nostrum totam ullam tempora possimus eaque quia, at facere soluta distinctio. Aliquid laudantium placeat nihil a doloribus mollitia inventore! Incidunt accusamus excepturi quos sed asperiores et odio nisi atque ratione!",
+      sub_heading: "Highly Recommended Corporate Caterers in Hyderabad.",
+      description: `Shree Lakshmi Caterers For highly experienced and skilled corporate caterers in Hyderabad, look no further! Here at Shree Lakshmi Caterers, we offer top-class cuisine & innovating catering solutions for our valued corporate clients. From business lunches to formal dinners, we can offer full-service catering solutions tailored to your workforce requirements.
+        Our devotion & commitment to serving quality food has earned us so many loyal corporate clients. From the CEO of the organization to the employees working in the lowest rung, we ensure to fulfil the gastronomical delights of your whole workforce.`,
     },
     {
       name: "Wedding Caterers",
       value: "wedding-caterers",
       _id: "wedding-caterers",
-      sub_heading: "We can provide food at a wedding service.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. A voluptatem vero voluptate unde exercitationem, iusto dolor? Dolores inventore, natus vel quae saepe voluptatem totam recusandae possimus ipsa. Sint, ratione quaerat. Nostrum totam ullam tempora possimus eaque quia, at facere soluta distinctio. Aliquid laudantium placeat nihil a doloribus mollitia inventore! Incidunt accusamus excepturi quos sed asperiores et odio nisi atque ratione!",
+      sub_heading:
+        "Shree Lakshmi Caterers – Best Wedding Catering Service in Hyderabad.",
+      description: `Wedding is a personal reflection of two individuals and deserves a perfectly designed wedding menu. Jyothi Caterers specializes in providing the best wedding catering service in Hyderabad. Our wedding catering planners will listen, suggest and create uniquely designed menus for unforgettable wedding experiences.
+
+        From first bites to last crumbs, our expert wedding caterers in Hyderabad will serve you only the best. We believe that there’s no better place to showcase your love than in Hyderabad. Contact us today for the superior class catering in Hyderabad.`,
     },
     {
       name: "Personal Caterers",
@@ -76,27 +97,26 @@ const ServicesSection = (props: Props) => {
             {findFromArray(catering_types, selected_catering_type).description}
           </p>
 
-          {/* <div className="flex md:flex-row flex-col items-center z-10 pt-16 justify-between w-full gap-8">
-            {services_tabs.map((item, index) => (
-              <div
-                key={index}
-                onClick={() => setSelectedService(item._id)}
-                className={`${
-                  item._id === selected_service
-                    ? "bg-services-green text-slate-800 border-services-green "
-                    : "text-white border-white "
-                } item border cursor-pointer flex-1 text-center w-full rounded-full px-4 py-2 `}
-              >
-                {item.name}
-              </div>
-            ))}
-          </div> */}
-          {/* <div className="pt-8 w-full text-center text-white z-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nostrum
-            facere quae dolorem illum consequuntur ipsam assumenda suscipit aut
-            sed, quis temporibus iusto ipsa minus repellendus fugit fuga nobis
-            voluptatum!
-          </div> */}
+          {selected_catering_type === "Corporate-caterers" && (
+            <div className="flex md:flex-row flex-col items-center z-10 pt-16 justify-between w-full gap-8">
+              {services_tabs.map((item, index) => (
+                <div
+                  key={index}
+                  onClick={() => setSelectedService(item._id)}
+                  className={`${
+                    item._id === selected_service
+                      ? "bg-services-green text-slate-800 border-services-green "
+                      : "text-white border-white "
+                  } item border cursor-pointer flex-1 text-center w-full rounded-full px-4 py-2 `}
+                >
+                  {item.name}
+                </div>
+              ))}
+            </div>
+          )}
+          <div className="pt-8 w-full text-center text-white z-10">
+          {findFromArray(services_tabs, selected_service).description}
+          </div>
         </div>
       </Slide>
 
