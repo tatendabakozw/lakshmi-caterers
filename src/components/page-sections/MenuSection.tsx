@@ -20,7 +20,6 @@ const MenuSection = (props: Props) => {
         </Slide>
       </div>
 
-      <Slide duration={500}>
         <div className="grid md:grid-cols-3 grid-cols-1 mx-2 gap-12">
           {veg_menu.map((item, index) => (
             <div key={index} className="flex flex-col">
@@ -32,7 +31,7 @@ const MenuSection = (props: Props) => {
                       key={index}
                       className="flex flex-row items-center bg-white rounded-2xl "
                     >
-                      <Avatar size={"lg"} src={item.image} />
+                      <Avatar name="item.name" size={"lg"} src={item.image} />
                       <p className="pl-8 w-full text-lg font-semibold">
                         {item.name}
                       </p>
@@ -43,7 +42,6 @@ const MenuSection = (props: Props) => {
             </div>
           ))}
         </div>
-      </Slide>
     </div>
   );
 };
