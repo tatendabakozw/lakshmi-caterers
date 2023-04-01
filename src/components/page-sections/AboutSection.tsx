@@ -1,4 +1,7 @@
 import SectionsHeading from "@components/sections-heading/SectionsHeading";
+import food_banner from "@assets/food_banner.png";
+// @ts-ignore
+import Slide from "react-reveal/Slide";
 
 type Props = {};
 
@@ -8,8 +11,8 @@ const AboutSection = (props: Props) => {
       className={`flex  h-full max-w-7xl flex-col w-full mx-auto min-h-screen bg-no-repeat p-2 relative pt-20 overflow-hidden`}
     >
       <SectionsHeading firstLetter="A" otherLetters="bout" />
-      <div className="pt-16">
-        <div className="md:w-2/3 w-full flex flex-row items-center">
+      <div className="pt-16 flex flex-row ">
+        <div className="md:w-1/2 w-full flex flex-row items-center">
           <div className=" md:pt-0 w-full inline-block  z-10 flex-col  ">
             <p className="text-slate-500">
               Welcome to our catering company, where we believe "The way to the
@@ -55,6 +58,11 @@ const AboutSection = (props: Props) => {
               memorable success.
             </p>
           </div>
+        </div>
+        <div className="md:w-1/2 w-full flex col-span-1">
+          <Slide right duration={1000}>
+            <img src={food_banner} alt="" className="object-contain" />
+          </Slide>
         </div>
       </div>
     </div>

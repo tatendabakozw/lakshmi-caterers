@@ -1,5 +1,5 @@
 import { data } from "@utils/data";
-import food_banner from "@assets/food_banner.png";
+import food_banner from "@assets/food_banner1.png";
 // @ts-ignore
 import Slide from "react-reveal/Slide";
 
