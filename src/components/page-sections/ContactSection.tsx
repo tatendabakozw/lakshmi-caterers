@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import map from "@assets/map.jpg";
+import Map, {Marker} from 'react-map-gl';
+import "mapbox-gl/dist/mapbox-gl.css";
+import { MapPinIcon } from "@heroicons/react/24/solid";
+
+const ACCESS_TOKEN =
+  "pk.eyJ1IjoidGF0ZW5kYXp3IiwiYSI6ImNsNXRmZWhmaDBnbXIzcHAzbXRpazN5MjgifQ.eWtGUzOKvmZlA3VKEF5W_A";
 
 type Props = {};
 
@@ -8,6 +14,7 @@ const ContactSection = (props: Props) => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
+  
 
   const send_message_Handler = async () => {
     try {
@@ -23,7 +30,7 @@ const ContactSection = (props: Props) => {
   };
 
   return (
-    <div className="max-w-7xl w-full mx-auto min-h-screen grid items-center content-center justify-center">
+    <div className="max-w-7xl w-full py-16 mx-auto min-h-screen  justify-center">
       <div className="grid md:grid-cols-2 grid-cols-1 mx-2 gap-8 w-full">
         <div className="col-span-1">
           <p className="text-4xl pb-8 text-slate-900 font-semibold">
@@ -65,7 +72,22 @@ const ContactSection = (props: Props) => {
           </div>
         </div>
         <div className="col-span-1 bg-slate-100 rounded-xl overflow-hidden">
-          <img src={map} alt="" className="h-full w-full object-cover" />
+        <Map
+            initialViewState={{
+              longitude: 76.9574853,
+              latitude: 15.7664661,
+              zoom: 8.5,
+            }}
+            mapboxAccessToken={
+              ACCESS_TOKEN
+            }
+            mapStyle="mapbox://styles/mapbox/streets-v9"
+          >
+            <Marker longitude={76.9574853} latitude={15.7664661} anchor="bottom">
+              <MapPinIcon height={24} width={24} />
+            </Marker>
+          </Map>
+          
         </div>
       </div>
     </div>
